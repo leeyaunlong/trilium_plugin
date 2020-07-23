@@ -89,6 +89,7 @@ api.bindGlobalShortcut("ctrl+shift+7", () => qact_btnBullet());
 
 api.bindGlobalShortcut("ctrl+shift+8", () => qact_btnQuote());
 
+
 api.bindGlobalShortcut("ctrl+shift+9", () => qact_btnCode());
 
 // ssk for tree
@@ -97,4 +98,5 @@ api.bindGlobalShortcut("ctrl+shift+0", () => qact_pathlist());
 // ssk for quickeraction
 api.bindGlobalShortcut("ctrl+shift+l", () => qact_btnIncludeNote());
 
+// ssk for quick rename
 api.bindGlobalShortcut("alt+F2", () => qact_rename());
